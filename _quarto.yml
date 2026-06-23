@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "PREVEU"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inici
+      - href: qui-som.qmd
+        text: Qui som
+      - href: activitats.qmd
+        text: Activitats
+      - href: resultats.qmd
+        text: Resultats
+      - href: adhereix-te.qmd
+        text: Adhereix-te
+      - href: contacte.qmd
+        text: Contacte
+    right:
+      - text: "VA"
+        href: index.qmd
+      - text: "ES"
+        href: es/index.qmd
+      - text: "EN"
+        href: en/index.qmd
+  page-footer:
+    left: "Projecte d'Innovació Educativa PREVEU · Universitat de València"
+    right: "© 2025"
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false
