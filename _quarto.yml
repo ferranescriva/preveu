@@ -5,13 +5,18 @@ project:
 website:
   title: "PREVEU"
   navbar:
+    logo: images/PREVEU-logo-blanc.png
+    logo-alt: "Logo PREVEU"
+    logo-width: 800
     left:
       - href: index.qmd
         text: Inici
       - href: qui-som.qmd
         text: Qui som
+      - href: planificacio.qmd
+        text: Planificació
       - href: activitats.qmd
-        text: Activitats
+        text: Activitats realitzades
       - href: resultats.qmd
         text: Resultats
       - href: adhereix-te.qmd
@@ -26,7 +31,7 @@ website:
       - text: "EN"
         href: en/index.qmd
   page-footer:
-    left: "Projecte d'Innovació Educativa PREVEU · Universitat de València"
+    left: "Projecte d'Innovació Educativa Emergent PREVEU [3897161] · Universitat de València"
     right: "© 2025"
 
 format:

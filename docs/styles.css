@@ -1,1 +1,8 @@
-/* Estils personalitzats PREVEU */
+/* Logo navbar */
+nav.navbar .navbar-brand img.navbar-logo,
+.navbar-brand-logo img.navbar-logo {
+  height: 75px !important;
+  max-height: 75px !important;
+  width: auto !important;
+  max-width: none !important;
+}
